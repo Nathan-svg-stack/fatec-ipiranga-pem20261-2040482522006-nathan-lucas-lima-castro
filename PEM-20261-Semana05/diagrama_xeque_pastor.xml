@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Xeque Pastor">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="2" value="Inicio" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="3" value="iniciarTabuleiro()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="148" y="90" width="125" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" value="mostrarTabuleiro()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="5" value="jogada1()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="moverPeca() e4&#xa;mostrarTabuleiro()&#xa;moverPeca() e5&#xa;mostrarTabuleiro()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="7" value="jogada2()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="8" value="moverPeca() Bc4&#xa;mostrarTabuleiro()&#xa;moverPeca() Cc6&#xa;mostrarTabuleiro()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9" value="jogada3()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="10" value="moverPeca() Dh5&#xa;mostrarTabuleiro()&#xa;moverPeca() Cf6&#xa;mostrarTabuleiro()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11" value="checkematepastor()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="148" y="440" width="125" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="12" value="moverPeca() Dxf7&#xa;mostrarTabuleiro()&#xa;Xeque Mate" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="432" width="160" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" value="Fim" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="515" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" edge="1" source="2" target="3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" source="3" target="4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" source="4" target="5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" source="5" target="6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" source="5" target="7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" source="7" target="8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" source="7" target="9" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" source="9" target="10" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" source="9" target="11" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" source="11" target="12" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" source="11" target="13" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
